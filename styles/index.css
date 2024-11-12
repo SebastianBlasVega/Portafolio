@@ -1,0 +1,52 @@
+
+body {
+    background: -webkit-linear-gradient(90deg, #080a13,#0f1426,#171f38,#1e294b,#26335e);
+    background: linear-gradient(90deg, #080a13,#0f1426,#171f38,#1e294b,#26335e);
+    padding-left:16rem;
+    padding-right: 16rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+    list-style: none;
+    }
+a{
+    text-decoration: none;
+    color: white;
+}
+.navegador{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.etiquetas{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    font-weight: 700;
+
+
+}
+.presentacion{
+    width: 40%;
+
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.prece{
+    color: white;
+}
+.foto{
+    width: 30%;
+    
+}
+#nombre{
+    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #def9fa .89%, #bef3f5 17.23%, #9dedf0 42.04%, #7de7eb 55.12%, #5ce1e6 71.54%, #33bbcf 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
