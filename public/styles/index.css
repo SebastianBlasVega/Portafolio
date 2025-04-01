@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background: linear-gradient(to bottom, #00042b, #000000);
     color: white;
     margin: 2%;
 }
@@ -40,8 +40,8 @@ a{
 }
 #sabermas{
     font-size: 30px;
-    background-color: blue;
-    border-radius: 10px;
+    color: black;
+    background-color: rgb(227, 227, 230);
 }
 
 .footer {
