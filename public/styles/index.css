@@ -12,14 +12,17 @@ body{
 li{
     list-style: none;
 }
-li:hover{
-}
 a{
     text-decoration: none;
     color: white;
 }
 #home{
 
+}
+.logo:hover{
+    color: #86a0f7;
+    transition: 0.3s;
+    cursor:  crosshair;
 }
 #about{
     margin: 5%;
