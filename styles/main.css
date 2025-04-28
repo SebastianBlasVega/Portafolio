@@ -161,3 +161,19 @@ padding: 100px;
 #lengjava,#lengjs,#lenggit,#lengreact,#lengbd,#lenglinkedin,#lengx,#lenggithub,#lengig{
     font-size: 50px;
 }
+
+#CV{
+    border: none;
+    border-radius: 1.1em;
+    background-color: #191a2b;
+    cursor: pointer;
+    color: white;
+    padding: 1em 2em;
+    transition: all 0.3s;
+}
+#CV:hover {
+    transform: scale(1.05);
+    transition:0.5s;
+    
+}
+
