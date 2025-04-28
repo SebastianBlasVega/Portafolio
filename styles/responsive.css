@@ -1,0 +1,97 @@
+/* Tablets y pantallas medianas */
+@media (max-width: 1024px) {
+    #about {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .foto img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .proyectos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        margin: 20px 0;
+    }
+
+    nav ul.nav_links {
+        gap: 15px;
+    }
+}
+
+/* Celulares grandes */
+@media (max-width: 768px) {
+    header nav ul.nav_links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #home center {
+        padding: 80px 20px;
+    }
+
+    #maquina {
+        font-size: 50px !important;
+    }
+
+    .info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leng_programacion,
+    .redes_sociales {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .proyectos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+
+/* Celulares pequeños */
+@media (max-width: 480px) {
+    #maquina {
+        font-size: 35px !important;
+    }
+
+    .button.type1 {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .foto img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .sobremi p {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-contact form input,
+    .footer-contact form button {
+        width: 90%;
+    }
+}

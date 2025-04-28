@@ -3,12 +3,7 @@
     width: 40%;
     padding: 200px;
 }
-#fotito{
-    width: 100%;
-    border-radius: 50%;
-    box-shadow: 0 0 0 5px #36363680;
-    transition: all 0.3s;
-}
+
 #fotito:hover{
     transform: scale(1.07);
     transition: 0.5s;
@@ -177,3 +172,27 @@ padding: 100px;
     
 }
 
+@keyframes animate{
+    from{
+        opacity: 0;
+        scale: 25%;
+    }
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+}
+#fotito{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #36363680;
+    transition: all 0.3s;
+    view-timeline-name: --image;
+    view-timeline-axis: initial;
+
+    animation-timeline: --image;
+    animation-name: animate;
+
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both; 
+}
