@@ -19,10 +19,6 @@ a{
 i{
     font-size: 50px;
 }
-#home{
-
-}
-
 .logo:hover{
     color: #86a0f7;
     transition: 0.3s;
@@ -95,15 +91,7 @@ padding: 100px;
 .type1:hover::after {
     visibility: visible;
     transform: scale(100) translateX(2px);
-}
-
-
-#project{
-
-}
-#contac{
-
-}
+}   
 .header{
     display: flex;
     align-items: center;
