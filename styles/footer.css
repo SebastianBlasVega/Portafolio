@@ -1,39 +1,5 @@
 
-.footer {
-    background-color: #121212;
-    color: #ffffff;
-    padding: 40px 20px;
-    text-align: center;
-}
 
-.footer-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.footer-about h3 {
-    font-size: 22px;
-    margin-bottom: 10px;
-}
-
-.footer-links ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-links ul li {
-    margin: 8px 0;
-}
-
-.footer-links a {
-    color: #00adb5;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.footer-links a:hover {
-    color: #86a0f7;
-}
 
 .social-icons {
     font-size: 30px;
@@ -71,20 +37,20 @@
 }
 
 .footer-contact button:hover {
-    background-color: #f8b400;
+    background-color: #44549e;
 }
 
 .footer-copy {
     margin-top: 20px;
     font-size: 12px;
     opacity: 0.7;
+    text-align: center;
 }
 
-/* From Uiverse.io by Jaareet */ 
 .input {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
     font-weight: 500;
-    font-size: .8vw;
+    font-size: auto;
     color: #fff;
     background-color: rgb(28,28,30);
     box-shadow: 0 0 .4vw rgba(0,0,0,0.5), 0 0 0 .15vw transparent;
@@ -92,12 +58,12 @@
     border: none;
     outline: none;
     padding: 0.4vw;
-    max-width: 190px;
+    max-width: full;
     transition: .4s;
   }
   
   .input:hover {
-    box-shadow: 0 0 0 .15vw rgba(135, 207, 235, 0.186);
+    box-shadow: 0 0 0 .15vw rgb(0, 183, 255);
   }
   
   .input:focus {

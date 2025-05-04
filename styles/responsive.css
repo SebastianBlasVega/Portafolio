@@ -6,10 +6,6 @@
         text-align: center;
     }
 
-    .foto img {
-        max-width: 90%;
-        height: auto;
-    }
 
     .proyectos {
         flex-wrap: wrap;
@@ -33,9 +29,7 @@
         gap: 10px;
     }
 
-    #home center {
-        padding: 80px 20px;
-    }
+
 
     #maquina {
         font-size: 50px !important;
