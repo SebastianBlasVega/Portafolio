@@ -46,11 +46,12 @@
     </header>
     <main>
         <section id="home" class=" h-screen">
-            <div  class="flex pt-36 pb-36 text-center h-3/6 items-center justify-center flex-col">
-                <h1 class="" id="maquina"></h1> 
-                <p>Soy Sebastian B. (Desarrollador FrontEnd)</p>
+            <div  class="flex pt-80 pb-36 text-center h-3/6 items-center justify-center flex-col">
+                <h1 class="text-8xl font-bold" id="maquina"></h1> 
+                <br>
+                <p class="text-3xl">Soy Sebastian B. (Desarrollador FrontEnd)</p>
             </div>
-            <div class="flex justify-around h-1/4">
+            <div class="flex flex-col md:flex-row justify-around items-center gap-6 pb-20">
                 <ul class="leng_programacion">
                     <li id="java">
                             <i id="lengjava" class="fa-brands fa-java"></i>
@@ -106,12 +107,12 @@
             </div>
             <br>
             <div class=" w-3/5 text-center *:max-w-2xl">
-                    <h1>Sobre mí</h1>
+                    <h1 class="text-3xl font-black">Sobre mí</h1>
+                    <h3 class="text-2xl font-semibold">Mi nombre es Sebastian Blas Vega</h3>
                     <br>
-                    <h3>Mi nombre es Sebastian Blas Vega</h3>
-                    <p>Soy un apasionado estudiante desarrollador frontend con experiencia en la creación de interfaces web modernas,
-                    funcionales y atractivas. Me especializo en HTML, CSS, JavaScript y frameworks como React, 
-                    siempre buscando ofrecer soluciones innovadoras y centradas en el usuario. Mi objetivo es transformar ideas en experiencias digitales impactantes.</p>
+                    <p>Soy un apasionado estudiante desarrollador Freelancer con experiencia en la creación de interfaces web modernas,
+                    aplicaciones moviles y desarrollo de software. Me especializo en tecnologias <strong>FrontEnd</strong> entre ellas el uso de HTML, CSS, JavaScrip, React, Tailwind al igual que <strong>BackEnd</strong> con Java, SQL/NoSQL, C# y Phyton,
+                    siempre buscando ofrecer soluciones innovadoras y centradas en el usuario.</p>
                     <br>
                     <center>
                         <a href="./image/CV.pdf" download="CV_Sebastian_Blas_Vega.pdf">
@@ -139,7 +140,7 @@
                                 <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
                                     Tienda dedicada a la venta y comercialisacion de productos electronicos/tecnologicos
                                 </p>
-                                <ul class="flex space-x-4 sm:mt-0">
+                                <ul class="flex space-x-4">
                                     <li>
                                         
                                             <i class="fa-brands fa-html5"></i>
@@ -165,7 +166,7 @@
                             </a>
                             <div class="p-5">
                                 <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                    <a href="#">Calculadora Peso</a>
+                                    <a href="#">Funable Web</a>
                                 </h3>
                                 <span class="text-gray-500 dark:text-gray-400">Pagina Web</span>
                                 <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, facilis vero corrupti eos a eligendi</p>
@@ -229,62 +230,64 @@
         </section>
     </main>
     <footer class="">
-        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-            <div class="md:flex md:justify-between">
-                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                    <h2>Sebastian Blas</h2>
-                    <p>Desarrollador Web | Diseñador UI/UX | Freelancer</p>
-                </div>
-        <br>
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 flex justify-between md:flex-row flex-col items-center">
+    
+            <div class=" flex justify-around items-start md:gap-20 gap-20 md:flex-row">
                 <div class="">
-                    <h4 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Enlaces rápidos</h4>
-                    <ul class= "font-medium">
-                        <li>
-                            <a href="#about">Sobre mí</a>
-                        </li>
-                        <li>
-                            <a href="#proyects">Proyectos</a>
-                        </li> 
-                        <li>
-                            <a href="#contact">Contacto</a>
-                        </li>
-                    </ul>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Sebastian Blas</h2>
+                    <p>Desarrollador Web | <br>Diseñador UI/UX | <br>Freelancer</p>
                 </div>
                 <div class="flex justify-center items-center flex-col">
-                    <h4>Sígueme</h4>
-                    <div class="social-icons">
-                        <a href="https://github.com/SebastianBlasVega" target="_blank">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/sebastianblasvega  " target="_blank">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://twitter.com/" target="_blank">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="https://www.instagram.com/" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </div>
+                    <h4 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Enlaces rápidos</h4>
+                        <ul class= "font-medium">
+                            <li>
+                                <a href="#about">Sobre mí</a>
+                            </li>
+                            <li>
+                                <a href="#projects">Proyectos</a>
+                            </li> 
+                            <li>
+                                <a href="#contact">Contacto</a>
+                            </li>
+                        </ul>
                 </div>
-                <center>
+            </div>
+                <br>
+                <div class="flex justify-center items-center flex-col ">
+                    <h4 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Sígueme</h4>
+
+                        <div class="social-icons">
+                            <a href="https://github.com/SebastianBlasVega" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sebastianblasvega  " target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                </div>
+                <br>
+                    <center>
                     <div class="footer-contact">
-                        <form action="https://formspree.io/f/xkgrgykd" method="POST">
-                            <h4 id="contact">Contacto</h4>
-                            <input type="text" name="text" class="input" placeholder="Nombre" required >
-                            <input type="text" name="text" class="input" placeholder="Correo" required>
+                        <form action="https://formspree.iof/xkgrgykd" method="POST">
+                            <h4 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white" id="contact">Contacto</h4>
+                            <input type="text" name="text"class="input"placeholder="Nombre" required >
+                            <input type="text" name="text"class="input"placeholder="Correo" required>
                             <br>
-                            <input type="text" name="text" class="input" placeholder="Asunto" required>
+                            <input type="text" name="text"class="input"placeholder="Asunto" required>
                             <br>
-                                <button type="submit" style="color: black;">Enviar</button>
+                                <button type="submit"style="color: black">Enviar</button>
                             
                         </form>
                     </div>
-                </center>
-                
-            </div>
+                    </center>
+                </div>   
         </div>
-        
         <p class="footer-copy">&copy; 2025 Sebastian B.  Todos los derechos reservados.</p>
     </footer>     
 </body>
